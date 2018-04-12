@@ -6,8 +6,13 @@
 	<title>Your Company Name</title>
 	<link rel="stylesheet" type="text/css" media="screen" href="style.css" />
 
-	<!-- Your CSS goes here 
+	<!--Your CSS goes here-->
+
 	<style>
+
+	head {
+		background-color: #464939;
+	}
 
 	body {
 		background-color: #464939;
@@ -22,21 +27,22 @@
 		color: white;
 	}
 
-	#explanation [class="danger"]{
+	#explanation [class~="danger"]{
 		color: brown;
 		font-weight: bold;
 	}
+   
+    ul > li {
+ 		color: #525D21;
+ 		font-style: italic;
 
-	ul > li {
-		color: #525D21;
-		font-style: italic;
-	}
+    }
 
-	.strong > li {
+	span.years li.hello {
 		color: #DD8804;
 	}
 
-	</style> -->
+	</style>
 
 </head>
 <body>
@@ -56,7 +62,7 @@
 					<ul>
 						<span class="years">
 							<li>1500</li>
-							<li class="strong">1960</li>
+							<li class="hello">1960</li>
 							<li>2000</li>
 						</span>
 					</ul>
